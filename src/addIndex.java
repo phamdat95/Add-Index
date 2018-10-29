@@ -48,7 +48,7 @@ public class addIndex {
             if (value < size - 1 && value > 1){
                 for (int j = size; j > 0; j--){
                     arrayNewValue[j -1]= arrayNewValue[j-2];
-                    if (j==value){
+                    if (j -1 ==value){
                         arrayNewValue[value] = "x";
                         break;
                     }
